@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+
+body, html{
+    height: 100%;
+    margin-left:10%;
+    margin-right:10%;
+
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+    float: right;
+    font-size: medium;
+
+}
+
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    padding: 20px;
+   
+}
+
+nav{
+    display: block;
+    color: white
+}
+
+.hero-image {
+    background-image: url(../css/images/theater-image-background.png);
+    height: 75%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+.hero-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.show-times {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.show-times {
+    background-color: #FFFFFF
+
+}
+
+
+
+footer {
+    background-color: black;
+}
+
+.show-image {
+    height: 150px;
+    width: 200px;
+}
+
+#button {
+    background-color: #EBB624;
+    border: 1px solid #BAA170;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+   
+}
+
+.month {
+    border: 1px solid #BAA170;
+    background-color: #F7F7F7;
+  
+    
+}
+
+.show-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-bottom:1px solid #BAA170;
+    gap: 25px;
+   
+}
+
+.show-times {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.show-card p {
+    font-size: small;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-bottom:1px solid #BAA170;
+    gap: 25px;
+    color: white;
+    padding: 20px;
+    border-top: 1px solid #BAA170;
+}
+
